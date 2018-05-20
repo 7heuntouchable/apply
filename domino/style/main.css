@@ -1,0 +1,44 @@
+.content {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+img {
+	height: 250px;
+	width: 175px;
+}
+.rest {
+	display: flex;
+	justify-content: center;
+}
+.inputs {
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	width: 330px;
+	height: 40px;
+	background-color: #0a1d23;
+	border-radius: 5px;
+}
+.clicker {
+	border: 1px solid white;
+	height: 40px;
+	width: 110px;
+	background-color: #0a1d23;
+	text-align: center;
+}
+p {
+	color: white;
+	font-family: Arial, sans-serif;
+}
+.clicker:hover {
+	background-color: #003c42;
+}
+.clicker:active {
+	background-color: #7c0212;
+}
+.domino {
+	transition-property: transform;
+	transition-duration: 2s;
+	transform: none;
+}

@@ -1,0 +1,138 @@
+body {
+  background-color: #37b1be;
+  padding: 0;
+  margin: 0;
+  font-family: OpenSans;
+  text-align: center;
+  min-width: 320px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.head .name {
+  padding: 0;
+  margin: 0;
+}
+.head .name p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.head .slogan {
+  padding-bottom: 10px;
+  margin: 0;
+}
+.head .slogan p {
+  text-align: center;
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main .main-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 750px;
+  height: 750px;
+}
+.main .main-area .lol {
+  width: 320px;
+  height: 250px;
+}
+.main .main-area .lol .img4 {
+  margin: 20px 0 0 40px;
+  background: url("../img/sun-rise-661541_1920.jpg");
+  background-size: 250px 250px ;
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 250px;
+}
+.main .main-area .lol .img4:hover {
+  transform: scaleY(-1);
+  transition: 2s;
+}
+.main .main-area .lol .img4 .tria1 {
+  width: 5px;
+  height: 200px;
+  border-top: 250px solid #37b1be;
+  border-right: 122px solid transparent;
+}
+.main .main-area .lol .img4 .tria2 {
+  margin-left: 125px;
+  margin-top: -450px;
+  width: 5px;
+  height: 110px;
+  border-top: 250px solid #37b1be;
+  border-left: 122px solid transparent;
+}
+.main .main-area .img1 img {
+  width: 300px;
+  height: 250px;
+  border: 1px solid white;
+  border-radius: 70%;
+}
+.main .main-area .img1 img:hover {
+  transition: 1s;
+  width: 320px;
+  height: 270px;
+}
+.main .main-area .img2 img {
+  width: 320px;
+  height: 250px;
+  border: 1px solid white;
+}
+.main .main-area .img2 img:hover {
+  transition: 1s;
+  border: 3px solid white;
+}
+.main .main-area .img3 img {
+  width: 280px;
+  height: 300px;
+  border: 1px solid white;
+}
+.main .main-area .img3 img:hover {
+  transition: 3s;
+  transform: scaleX(-1);
+}
+img {
+  margin: 0 10px 0 10px;
+}
+.obgortka {
+  margin-top: -920px;
+  display: flex;
+  justify-content: center;
+}
+.obgortka .overlay {
+  width: 900px;
+  height: 850px;
+  background-color: #37b1be;
+  display: none;
+}
+.obgortka .overlay .head {
+  display: flex;
+  flex-direction: row;
+}
+.obgortka .overlay .head .title {
+  margin-left: 270px;
+  font-size: 30px;
+  color: white;
+  padding: 0;
+  font-family: OpenSans, serif;
+}
+.obgortka .overlay .head .close {
+  font-family: OpenSans, serif;
+  margin-left: 200px;
+  color: white;
+  font-size: 30px;
+  cursor: default;
+}
+.obgortka .overlay img {
+  min-width: 300px;
+}
+/*# sourceMappingURL=main.css.map */

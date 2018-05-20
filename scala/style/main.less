@@ -1,0 +1,153 @@
+@bak-col: rgb(55, 177, 190);
+@font-fam: OpenSans;
+
+
+body {
+  background-color: @bak-col;
+  padding: 0;
+  margin: 0;
+  font-family: @font-fam;
+  text-align: center;
+  min-width: 320px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  .name {
+    padding: 0;
+    margin: 0;
+    p {
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  .slogan {
+    padding-bottom: 10px;
+    margin: 0;
+    p{
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  .main-area{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 750px;
+      height: 750px;
+    .lol {
+      width: 320px;
+      height: 250px;
+      .img4 {
+        margin: 20px 0 0 40px;
+        background: url("../img/sun-rise-661541_1920.jpg");
+        background-size: 250px 250px ;
+        background-repeat: no-repeat;
+        width: 310px;
+        height: 250px;
+        &:hover {
+          transform: scaleY(-1);
+          transition: 2s;
+        }
+        .tria1 {
+          width: 5px;
+          height: 200px;
+          border-top: 250px solid @bak-col;
+          border-right: 122px solid transparent;
+        }
+        .tria2 {
+          margin-left: 125px;
+          margin-top: -450px;
+          width: 5px;
+          height: 110px;
+          border-top: 250px solid @bak-col;
+          border-left: 122px solid transparent;
+        }
+      }
+    }
+      .img1 {
+        img {
+          width: 300px;
+          height: 250px;
+          border: 1px solid white;
+          border-radius: 70%;
+          &:hover {
+            transition: 1s;
+            width: 320px;
+            height: 270px;
+          }
+        }
+      }
+      .img2 {
+         img {
+           width: 320px;
+           height: 250px;
+           border: 1px solid white;
+           &:hover {
+             transition: 1s;
+             border: 3px solid white;
+           }
+         }
+       }
+      .img3 {
+        img {
+          width: 280px;
+          height: 300px;
+          border: 1px solid white;
+          &:hover {
+            transition: 3s;
+            transform: scaleX(-1);
+          }
+        }
+      }
+    }
+}
+
+img {
+  margin: 0 10px 0 10px;
+}
+
+
+.obgortka {
+  margin-top: -920px;
+  display: flex;
+  justify-content: center;
+  .overlay {
+    width: 900px;
+    height: 850px;
+    background-color: @bak-col;
+    display: none;
+    .head {
+      display: flex;
+      flex-direction: row;
+      .title {
+        margin-left: 270px;
+        font-size: 30px;
+        color: white;
+        padding: 0;
+        font-family: OpenSans, serif;
+      }
+      .close {
+        font-family: OpenSans, serif;
+        margin-left: 200px;
+        color: white;
+        font-size: 30px;
+        cursor: default;
+      }
+    }
+    img {
+      min-width: 300px;
+    }
+  }
+}
+
